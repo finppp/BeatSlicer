@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <script src="externals/jquery.js"></script>
+    <script src="externals/recorder.js"></script>
+    <script src="main.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="main.css">-->
+    <title>Alarm Recorder</title>
+  </head>
+  <body>
+		<div id="container">
+		  <button onclick="record()">Record</button>
+		  <button onclick="stopRecord()">Stop Record</button>
+		  <button onclick="play()">Play</button>
+		  <button onclick="SAS()">SAS</button>
+		  <br>
+		  <button onclick="getBuffer()">Rec to Buffer</button>
+		  <button onclick="getPeaks()">Get Peaks</button>
+		  <button onclick="slicePoints()">Slice</button>
+		  <br>
+		  <button onclick="playSlice(bufferSlice1,0)">Play Slice 1</button>
+		  <button onclick="playSlice(bufferSlice2,0)">Play Slice 2</button>
+		  <button onclick="playSlice(bufferSlice3,0)">Play Slice 3</button>
+		  <button onclick="playSlice(bufferSlice4,0)">Play Slice 4</button>
+		  <button onclick="playSlice(bufferSlice5,0)">Play Slice 5</button>
+		  <button onclick="groove()">Groove</button>
+
+		  
+		  
+    </div>
+  </body>
+</html>
